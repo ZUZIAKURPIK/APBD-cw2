@@ -5,3 +5,5 @@ Console.WriteLine("Hello, World!");
 Console.WriteLine("Uczę");
 
 Console.WriteLine("Sie");
+
+Console.WriteLine("GITA");
