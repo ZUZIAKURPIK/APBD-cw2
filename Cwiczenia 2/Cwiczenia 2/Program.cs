@@ -1,6 +1,17 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Robie jeszcze raz XD");
+static double GetAverage(int[] liczby)
+{
+    int suma = 0;
+    foreach (var liczba in liczby)
+    {
+        suma += liczba;
+    }
+
+    double avg = (double)suma / liczby.Length;
+
+    return avg;
+}
 
 static int GetMax(int[] inty)
 {
