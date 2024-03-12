@@ -8,9 +8,9 @@ static double GetAverage(int[] liczby)
         suma += liczba;
     }
 
-    double srednia = (double)suma / liczby.Length;
+    double avg = (double)suma / liczby.Length;
 
-    return srednia;
+    return avg;
 }
 
 static int GetMax(int[] inty)
