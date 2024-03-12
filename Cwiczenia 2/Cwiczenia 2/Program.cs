@@ -3,3 +3,5 @@
 Console.WriteLine("Hello, World!");
 
 Console.WriteLine("Uczę");
+
+Console.WriteLine("Sie");
