@@ -13,7 +13,9 @@ static double GetAverage(int[] liczby)
         suma += liczba;
     }
 
-    double avg = (double)suma / liczby.Length;
-
-    return avg;
+    return (double)suma / liczby.Length;
 }
+
+int[] tablica = {3, 5, 6, 7, 1};
+double avf = GetAverage(tablica);
+Console.WriteLine(avf);
